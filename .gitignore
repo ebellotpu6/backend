@@ -1,1 +1,2 @@
-/db/.env
+/server/.env
+/server/node_modules
