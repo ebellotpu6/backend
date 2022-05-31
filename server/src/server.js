@@ -13,6 +13,9 @@ app.use(morgan("dev"));
 const userRouter = require("./resources/user/user.router");
 app.use("/users", userRouter);
 
+const orderRouter = require("./resources/order/order.router");
+app.use("/orders", orderRouter);
+
 const startServer = async () => {
     await db.connect();
     app.listen(SERVER_PORT, () => {

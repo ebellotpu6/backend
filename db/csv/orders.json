@@ -1,1 +1,33 @@
-[]
+[
+    {
+        "order_number": "111111111",
+        "status": 0,
+        "user_id": 0,
+        "delivery_method": "Entrega de paquetes en España peninsular",
+        "billing_address": "Camí Ral 45, 08301 Mataró, Barcelona, España",
+        "delivery_address": "Camí Ral 45, 08301 Mataró, Barcelona, España",
+        "line_items": [
+            {
+                "variant_id": 1,
+                "quantity": 1.2
+            },
+            {
+                "variant_id": 2,
+                "quantity": 0.5
+            },
+            {
+                "variant_id": 3,
+                "quantity": 0.9
+            },
+            {
+                "variant_id": 4,
+                "quantity": 4.1
+            }
+        ],
+        "subtotal": "45.5",
+        "total": "49.95",
+        "payment_method": "Tarjeta",
+        "payment_info": "111111111",
+        "paid_at": "2022-05-30T09:41:09.018Z"
+    }
+]
