@@ -52,7 +52,12 @@ const userSchema = new Schema(
         email_verified_at:  {
             type: Date,
             default: null,
-        }
+        },
+        orders: [{
+            type: Schema.Types.ObjectId, 
+            ref: 'order',
+            default: [],
+        }]
     },
     { timestamps: true }
 );

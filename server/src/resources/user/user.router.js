@@ -13,6 +13,7 @@ router.route("/:user_id")
     .put(userController.updateOne)
     .delete(userController.deleteOne);
 
-
+router.route("/:user_id/orders")
+    .get(userController.findOrders);
 
 module.exports = router;

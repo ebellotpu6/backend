@@ -9,8 +9,8 @@
         "phone": "111111111",
         "birthday": "1/1/1991",
         "password": "111111111",
-        "email_verified_at": "2022-05-30T09:41:09.018Z"
-
+        "email_verified_at": "2022-05-30T09:41:09.018Z",
+        "orders": []
     },
     {
         "dni": "22222222G",
@@ -22,7 +22,8 @@
         "phone": "222222222",
         "birthday": "2/2/1992",
         "password": "222222222",
-        "email_verified_at": "2022-05-30T09:41:09.018Z"
+        "email_verified_at": "2022-05-30T09:41:09.018Z",
+        "orders": []
     },
     {
         "dni": "33333333J",
@@ -34,7 +35,8 @@
         "phone": "333333333",
         "birthday": "3/3/1993",
         "password": "333333333",
-        "email_verified_at": "2022-05-30T09:41:09.018Z"
+        "email_verified_at": "2022-05-30T09:41:09.018Z",
+        "orders": []
     },
     {
         "dni": "44444444J",
@@ -46,7 +48,8 @@
         "phone": "444444444",
         "birthday": "4/4/1994",
         "password": "444444444",
-        "email_verified_at": "2022-05-30T09:41:09.018Z"
+        "email_verified_at": "2022-05-30T09:41:09.018Z",
+        "orders": []
     },
     {
         "dni": "55555555C",
@@ -58,6 +61,7 @@
         "phone": "555555555",
         "birthday": "5/5/1995",
         "password": "555555555",
-        "email_verified_at": "2022-05-30T09:41:09.018Z"
+        "email_verified_at": "2022-05-30T09:41:09.018Z",
+        "orders": []
     }
 ]

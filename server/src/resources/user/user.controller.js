@@ -1,4 +1,5 @@
 const User = require("./user.model");
+const Order = require("../order/order.model");
 
 const findMany = async (request, response) => {
     try {
@@ -58,10 +59,22 @@ const deleteOne = async (request, response) => {
     }
 }
 
+const findOrders = async (request, response) => {
+    const { user_id } = request.params;
+    try {
+        const document = await User.findById(user_id).populate("orders", {_id: 0});
+        if(!document) return response.status(404).json({error: "Not found"});
+        response.status(200).json({result: [document]});
+    } catch (error) {
+        response.status(500).json({ error: error.toString() });
+    }
+}
+
 module.exports = {
     findMany,
     createOne,
     findOne,
     updateOne,
     deleteOne,
+    findOrders,
 }

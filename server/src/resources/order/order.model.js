@@ -4,15 +4,19 @@ const { Schema } = mongoose;
 const lineItemsSchema = new Schema(
     {
         variant_id:  {
-            type: String,
+            type: Schema.Types.ObjectId,
             required: true,
-            unique: true,
         },
         quantity:  {
             type: Number,
             required: true,
             default: 0,
         },
+        subtotal: {
+            type: Number,
+            required: true,
+            default: 0,
+        }
     },
     { timestamps: true }
 );
@@ -31,7 +35,8 @@ const orderSchema = new Schema(
             default: 0,
         },
         user_id:  {
-            type: String,
+            type: Schema.Types.ObjectId, 
+            ref: 'user',
             required: true,
         },
         user_comment:  {
@@ -80,7 +85,6 @@ const orderSchema = new Schema(
     },
     { timestamps: true }
 );
-
 
 const Order = mongoose.model('order', orderSchema);
 
