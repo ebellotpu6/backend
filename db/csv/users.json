@@ -8,6 +8,7 @@
         "email": "emilibellot@gmail.com",
         "phone": "111111111",
         "birthday": "1/1/1991",
+        "username": "emilibellot",
         "password": "111111111",
         "email_verified_at": "2022-05-30T09:41:09.018Z",
         "orders": []
@@ -21,6 +22,7 @@
         "email": "guillemmauri@gmail.com",
         "phone": "222222222",
         "birthday": "2/2/1992",
+        "username": "guillemmauri",
         "password": "222222222",
         "email_verified_at": "2022-05-30T09:41:09.018Z",
         "orders": []
@@ -34,6 +36,7 @@
         "email": "josepalmor@gmail.com",
         "phone": "333333333",
         "birthday": "3/3/1993",
+        "username": "josepalmor",
         "password": "333333333",
         "email_verified_at": "2022-05-30T09:41:09.018Z",
         "orders": []
@@ -47,6 +50,7 @@
         "email": "jordiguillen@gmail.com",
         "phone": "444444444",
         "birthday": "4/4/1994",
+        "username": "jordiguillen",
         "password": "444444444",
         "email_verified_at": "2022-05-30T09:41:09.018Z",
         "orders": []
@@ -60,6 +64,7 @@
         "email": "cescrebollo@gmail.com",
         "phone": "555555555",
         "birthday": "5/5/1995",
+        "username": "cescrebollo",
         "password": "555555555",
         "email_verified_at": "2022-05-30T09:41:09.018Z",
         "orders": []

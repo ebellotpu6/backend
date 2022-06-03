@@ -38,6 +38,7 @@ const orderSchema = new Schema(
             type: Schema.Types.ObjectId, 
             ref: 'user',
             required: true,
+            immutable: true,
         },
         user_comment:  {
             type: String,

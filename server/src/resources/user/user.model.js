@@ -44,10 +44,15 @@ const userSchema = new Schema(
             type: Date,
             required: true,
         },
-        password:  {
+        username:  {
             type: String,
             required: true,
+            unique: true,
             maxlength: 50,
+        },
+        passwordHash:  {
+            type: String,
+            required: true,
         },
         email_verified_at:  {
             type: Date,
@@ -61,7 +66,6 @@ const userSchema = new Schema(
     },
     { timestamps: true }
 );
-
 
 const User = mongoose.model('user', userSchema);
 

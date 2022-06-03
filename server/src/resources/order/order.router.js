@@ -2,17 +2,17 @@ const { Router } = require('express');
 
 const userController = require('./order.controller');
 
+const userExtractor = require("../../middleware/userExtractor");
+
 const router = Router();
 
 router.route("/")
     .get(userController.findMany)
-    .post(userController.createOne);
+    .post(userExtractor, userController.createOne);
 
 router.route("/:order_id")
     .get(userController.findOne)
-    .put(userController.updateOne)
-    .delete(userController.deleteOne);
-
-
+    .put(userExtractor, userController.updateOne)
+    .delete(userExtractor, userController.deleteOne);
 
 module.exports = router;
