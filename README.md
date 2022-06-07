@@ -4,7 +4,7 @@ This is the third project of the **Full Stack Web Development** postgraduate cou
 
 I have opted for making a typical Data model of an eCommerce.
 
-![Data Model](datamodel.png)
+![Data Model](https://github.com/ebellotpu6/backend-project/blob/master/Data%20Model.png)
 
 How to run the project:
 
